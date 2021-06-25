@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBusModelDesigner", "MessageBusModelDesigner\MessageBusModelDesigner.csproj", "{613DA041-39BB-459A-8FD2-0262AFC44EC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{187C5612-A091-441B-B3C1-847DE342BFF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{DD169688-6CE2-4D7B-AC29-9B538D6B3A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6A2D0BB2-15F0-40C3-B41A-BC2C6618493A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{783337CA-8763-4D47-B893-28E1C5C7AFF5}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{613DA041-39BB-459A-8FD2-0262AFC44EC6} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0127671C-0D5B-4AC3-91DB-1D9CA08A69D6}
+	EndGlobalSection
+EndGlobal
