@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBusModelDesigner", "MessageBusModelDesigner\MessageBusModelDesigner.csproj", "{613DA041-39BB-459A-8FD2-0262AFC44EC6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{187C5612-A091-441B-B3C1-847DE342BFF8}"
@@ -15,9 +13,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6A2D0BB2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{783337CA-8763-4D47-B893-28E1C5C7AFF5}"
 	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
 		LICENSE.md = LICENSE.md
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{14AA7C62-030F-4FB6-B649-DB1252202453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{3BE0BA9A-64CE-43EC-9A83-A6E09D4296E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C065DF70-8EB0-4078-B391-D32517BEA2EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1719D952-0B93-4CF8-A2A9-44EE9C82229D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{4FF74DEC-1CDF-4F91-9D6D-8DEA500AA6A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D773FAC6-CF58-4A94-8A65-9A82E07A3BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F804D82C-5CF6-4AFE-BF79-1ED39FAB6371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mbmd.Entities", "src\Mbmd.Entities\Mbmd.Entities.csproj", "{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,16 +40,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{613DA041-39BB-459A-8FD2-0262AFC44EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{613DA041-39BB-459A-8FD2-0262AFC44EC6} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{14AA7C62-030F-4FB6-B649-DB1252202453} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{C065DF70-8EB0-4078-B391-D32517BEA2EB} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{1719D952-0B93-4CF8-A2A9-44EE9C82229D} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{4FF74DEC-1CDF-4F91-9D6D-8DEA500AA6A3} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{D773FAC6-CF58-4A94-8A65-9A82E07A3BC1} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{F804D82C-5CF6-4AFE-BF79-1ED39FAB6371} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
+		{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6} = {14AA7C62-030F-4FB6-B649-DB1252202453}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0127671C-0D5B-4AC3-91DB-1D9CA08A69D6}
