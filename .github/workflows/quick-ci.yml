@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Setup .NET 6.0
+      - name: Setup .NET 5.0
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 6.x
+          dotnet-version: 5.x
       - name: Restore packages
         run: dotnet restore
       - name: Build solution
