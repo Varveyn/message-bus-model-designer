@@ -38,7 +38,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F804D82C-5CF6-4AFE-BF79-1ED39FAB6371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mbmd.Entities", "src\Mbmd.Entities\Mbmd.Entities.csproj", "{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mbmd.Entities", "src\Mbmd.Entities\Mbmd.Entities.csproj", "{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D713281F-9653-428D-9160-2A2BE0FC0574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1ABF7148-5819-4A30-A3C6-DBB197564EC6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\quick-ci.yml = .github\workflows\quick-ci.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +69,8 @@ Global
 		{D773FAC6-CF58-4A94-8A65-9A82E07A3BC1} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
 		{F804D82C-5CF6-4AFE-BF79-1ED39FAB6371} = {181F70FE-806A-49B3-B1F3-ED3B2F9B5EB8}
 		{B9EAA61C-EEA9-438E-9DEE-5B819A072DC6} = {14AA7C62-030F-4FB6-B649-DB1252202453}
+		{D713281F-9653-428D-9160-2A2BE0FC0574} = {6A2D0BB2-15F0-40C3-B41A-BC2C6618493A}
+		{1ABF7148-5819-4A30-A3C6-DBB197564EC6} = {D713281F-9653-428D-9160-2A2BE0FC0574}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0127671C-0D5B-4AC3-91DB-1D9CA08A69D6}
