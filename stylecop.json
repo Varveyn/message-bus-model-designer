@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "documentationRules": {
+      "documentExposedElements": false,
+      "documentInterfaces": false,
+      "xmlHeader": false
+    },
+    "readabilityRules": {
+      "allowBuiltInTypeAliases": true
+    },
+    "orderingRules": {
+      "usingDirectivesPlacement": "insideNamespace",
+      "systemUsingDirectivesFirst": true
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    }
+  }
+}
